@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   
+}
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_bar img{
+    height: 9rem;
+    width: 9rem;
+}
+.nav_bar .menu_bar{
+   padding: 3rem 0rem 0rem 0rem;
+}
+.nav_bar .menu_bar ul{
+    list-style-type: none;
+}
+.nav_bar .menu_bar ul li{
+    display: inline-block;
+    padding: 0rem 4rem 0rem 2rem;
+}
+.nav_bar .menu_bar ul li a{
+    text-decoration: none;
+}
+.nav_bar .menu_bar ul li a button{
+    background-color: #f2c4a3;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px 1px #ff6b00;
+    cursor: pointer;
+    letter-spacing: 0.05;
+}
+.nav_bar .menu_bar ul li a button:hover{
+    background-color: white;
+    color: #f2c4a3;
+}
+.sub_menu_1{
+    display: none;
+}
+.sub_menu_1:hover{
+    display: block;
+    position: absolute;
+    background-color: #f2c4a3;
+    
+}
