@@ -109,23 +109,21 @@ nav {
     display: none;
     transition: .3s ease;
     z-index: 1000;
+    flex-direction: column;
     text-align: center;
 }
-
-.links li:nth-child(2):hover .subLinks {
-    display: block;
-}
-
-.links li:nth-child(3):hover .subLinks {
-    display: block;
-}
-
 .subLink {
     display: inline-block;
     color: var(--white-color);
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 20px;
+}
+.first:hover .subLinks{
+    display: block;
+}
+.second:hover .subLinks{
+    display: block;
 }
 
 .iconBox {
